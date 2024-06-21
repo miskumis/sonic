@@ -57,7 +57,7 @@ async function delay(ms) {
   const randomAddresses = generateRandomAddresses(100)
   console.log('Generated 100 random addresses:', randomAddresses)
 
-  const amountToSend = 0.00001
+  const amountToSend = 0.001
   const delayBetweenRequests = 5000
 
   for (const address of randomAddresses) {
